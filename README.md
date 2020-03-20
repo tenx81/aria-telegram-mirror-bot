@@ -209,7 +209,7 @@ https://drive.google.com/file/d/1q5VVCCreOuXsujRzZkBAv12WJ1KZvQ0I/view
 * `bash <(curl -s https://cdn.jsdelivr.net/gh/jscdn/scripts@master/aria-telegram-mirror-bot-ready-server.sh)`
 * `sudo git clone https://github.com/ParveenBhadooOfficial/aria-telegram-mirror-bot` Change this url to your fork url.
 * `cd aria-telegram-mirror-bot`
-* `sudo nano /src/.constants.js` Use this to edit bot config in terminal
+* `sudo nano src/.constants.js` Use this to edit bot config in terminal
 * `bash <(curl -s https://cdn.jsdelivr.net/gh/jscdn/scripts@master/aria-telegram-mirror-bot-start-bot.sh)`
 * Your Bot is Started. Send `/mirror https://github.com/ParveenBhadooOfficial/aria-telegram-mirror-bot/blob/master/README.md` to your Telegram Bot.
 * In Terminal Copy the accounts.google.com full url and paste in browser and authenticate your drive.
