@@ -207,7 +207,7 @@ https://drive.google.com/file/d/1q5VVCCreOuXsujRzZkBAv12WJ1KZvQ0I/view
 * client_secret.json already added. Don't change unless you know what you're doing.
 * Start an EC2 AWS Virtual Machine or Your Own Linux Machine.
 * `bash <(curl -s https://cdn.jsdelivr.net/gh/jscdn/scripts@master/aria-telegram-mirror-bot-ready-server.sh)`
-* `git clone https://github.com/ParveenBhadooOfficial/aria-telegram-mirror-bot` Change this url to your fork url.
+* `sudo git clone https://github.com/ParveenBhadooOfficial/aria-telegram-mirror-bot` Change this url to your fork url.
 * `cd aria-telegram-mirror-bot`
 * `sudo nano /src/.constants.js` Use this to edit bot config in terminal
 * `bash <(curl -s https://cdn.jsdelivr.net/gh/jscdn/scripts@master/aria-telegram-mirror-bot-start-bot.sh)`
