@@ -216,14 +216,9 @@ https://drive.google.com/file/d/1q5VVCCreOuXsujRzZkBAv12WJ1KZvQ0I/view
 * `sudo apt install nodejs`
 * `sudo npm install -g typescript`
 * or you can type at once `sudo apt update && sudo apt upgrade && sudo apt install aria2 && curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash - && sudo apt install nodejs && sudo npm install -g typescript && sudo apt install unzip`
-* `git clone https://github.com/ParveenBhadooOfficial/Telegram-BhadooCloud`    Change this url to your fork url.
-* `cd Telegram-BhadooCloud`
-* `sudo npm install`
-* `sudo tsc`
-* `sudo bash ./aria.sh` 
-* It Should Print `Aria2c daemon started`
-* `sudo npm start`
-* or use `sudo npm install && sudo tsc && sudo bash ./aria.sh && sudo npm start`
+* `git clone https://github.com/ParveenBhadooOfficial/aria-telegram-mirror-bot` Change this url to your fork url.
+* `cd aria-telegram-mirror-bot`
+* ````sudo npm install && sudo tsc && sudo bash ./aria.sh && sudo npm start````
 * Your Bot is Started. Send `/mirror https://github.com/ParveenBhadooOfficial/Telegram-BhadooCloud/blob/master/README.md` to your Telegram Bot.
 * In Terminal Copy the accounts.google.com full url and paste in browser and authenticate your drive.
 * Paste the Token you received in terminal.
