@@ -7,9 +7,9 @@ module.exports = Object.freeze({
   ARIA_FILTERED_FILENAMES: [], // Files/top level directories with these substrings in the filename won't be downloaded
   ARIA_PORT: 6800, // Port for aria2c RPC server, if you change this here, make sure to update aria.sh as well
   INDEX_DOMAIN: 'https://one.driveindex.ga/', // Supporting Sharable Links
-  GDRIVE_PARENT_DIR_ID: 'id_of_Drive_folder_to_upload_into',
-  SUDO_USERS: [012, 345],	// Telegram user IDs. These users can use the bot in any chat.
-  AUTHORIZED_CHATS: [678, 901],	// Telegram chat IDs. Anyone in these chats can use the bot.
+  GDRIVE_PARENT_DIR_ID: 'id_of_Drive_folder',
+  SUDO_USERS: [0, 3],	// Telegram user IDs. These users can use the bot in any chat.
+  AUTHORIZED_CHATS: [],	// Telegram chat IDs. Anyone in these chats can use the bot.
   STATUS_UPDATE_INTERVAL_MS: 8000, // A smaller number will update faster, but might cause rate limiting
   DRIVE_FILE_PRIVATE: {
     ENABLED: false,
